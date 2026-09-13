@@ -5,101 +5,101 @@
   "grid": [
     [
       {
-        "fixed": "T"
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "A"
+      },
+      null,
+      null,
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "E"
       },
       {
-        "fixed": "N"
+        "fixed": "U"
+      },
+      {
+        "fixed": "T"
       },
       {
         "fixed": "A"
       },
       null,
       {
-        "fixed": "P"
-      },
-      {
-        "blocked": true
+        "fixed": "S"
       }
     ],
     [
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "T"
+      },
+      null,
       {
         "fixed": "R"
       },
       {
-        "fixed": "O"
-      },
+        "fixed": "E"
+      }
+    ],
+    [
       {
         "fixed": "L"
       },
+      null,
+      null,
+      null,
       {
-        "fixed": "I"
-      },
-      {
-        "fixed": "A"
+        "fixed": "E"
       },
       null
     ],
     [
-      null,
-      null,
-      null,
       {
-        "fixed": "A"
+        "fixed": "S"
       },
-      {
-        "fixed": "U"
-      },
-      null
-    ],
-    [
+      null,
       {
         "fixed": "N"
       },
       null,
+      null,
       {
-        "fixed": "U"
-      },
-      {
-        "fixed": "T"
-      },
-      null,
-      null
-    ],
-    [
-      {
-        "fixed": "K"
-      },
-      null,
-      null,
-      null,
-      null,
-      null
+        "fixed": "Y"
+      }
     ],
     [
       {
         "blocked": true
       },
       {
-        "fixed": "S"
+        "fixed": "Y"
       },
       {
-        "fixed": "E"
-      },
-      {
-        "fixed": "E"
+        "fixed": "D"
       },
       null,
       {
-        "fixed": "S"
-      }
+        "fixed": "A"
+      },
+      null
     ]
   ],
   "solution": [
-    "TNALP#",
-    "ROLIAS",
-    "UMLAUT",
-    "NRUTPU",
-    "KERNEL",
-    "#SEERS"
+    "ROARS#",
+    "EUTATS",
+    "ATTIRE",
+    "LLESER",
+    "SANELY",
+    "#YDDAP"
   ]
 }
