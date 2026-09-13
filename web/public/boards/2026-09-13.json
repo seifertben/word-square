@@ -4,74 +4,76 @@
   "minWordLength": 5,
   "grid": [
     [
-      null,
-      null,
       {
-        "fixed": "T"
+        "fixed": "B"
       },
       null,
       {
-        "fixed": "R"
+        "fixed": "S"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "S"
       },
       {
         "blocked": true
       }
     ],
     [
-      null,
-      null,
-      {
-        "fixed": "I"
-      },
-      null,
-      {
-        "fixed": "E"
-      },
       {
         "fixed": "A"
-      }
-    ],
-    [
-      null,
-      null,
-      {
-        "fixed": "B"
       },
       null,
-      null,
-      null
-    ],
-    [
-      {
-        "fixed": "M"
-      },
-      {
-        "fixed": "O"
-      },
-      {
-        "fixed": "D"
-      },
-      null,
-      {
-        "fixed": "L"
-      },
-      {
-        "fixed": "E"
-      }
-    ],
-    [
-      {
-        "fixed": "O"
-      },
-      {
-        "fixed": "R"
-      },
       {
         "fixed": "I"
       },
       {
         "fixed": "G"
       },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "V"
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "L"
+      }
+    ],
+    [
+      {
+        "fixed": "H"
+      },
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "L"
+      },
       null,
       null
     ],
@@ -79,29 +81,25 @@
       {
         "blocked": true
       },
+      null,
+      {
+        "fixed": "A"
+      },
       {
         "fixed": "S"
       },
       {
-        "fixed": "T"
+        "fixed": "K"
       },
-      {
-        "fixed": "I"
-      },
-      {
-        "fixed": "M"
-      },
-      {
-        "fixed": "E"
-      }
+      null
     ]
   ],
   "solution": [
-    "ATTAR#",
-    "GUINEA",
-    "EMBALM",
-    "MODULE",
-    "ORIGIN",
-    "#STIME"
+    "BUSES#",
+    "ANIGAV",
+    "TSEDLO",
+    "CEREAL",
+    "HARLOT",
+    "#TASKS"
   ]
 }
