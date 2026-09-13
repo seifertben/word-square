@@ -148,13 +148,6 @@ export default function App() {
         </div>
       </header>
 
-      <p className="instructions">
-        Fill the grid so every row and column is a real English word, read
-        forward or backward. Border letters are locked givens; fill in the
-        interior. Click a cell and type to fill; click it again or press{" "}
-        <kbd>Space</kbd> to switch direction. Arrows move and <kbd>Backspace</kbd> erases.
-      </p>
-
       <div
         className={`board-container${solved ? " solved" : ""}`}
         aria-label="Word square grid"
