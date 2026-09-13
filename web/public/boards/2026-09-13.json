@@ -5,17 +5,17 @@
   "grid": [
     [
       {
-        "fixed": "B"
+        "fixed": "T"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "A"
       },
       null,
       {
-        "fixed": "S"
-      },
-      {
-        "fixed": "E"
-      },
-      {
-        "fixed": "S"
+        "fixed": "P"
       },
       {
         "blocked": true
@@ -23,57 +23,55 @@
     ],
     [
       {
-        "fixed": "A"
+        "fixed": "R"
       },
-      null,
+      {
+        "fixed": "O"
+      },
+      {
+        "fixed": "L"
+      },
       {
         "fixed": "I"
       },
       {
-        "fixed": "G"
-      },
-      {
         "fixed": "A"
       },
-      {
-        "fixed": "V"
-      }
-    ],
-    [
-      null,
-      null,
-      {
-        "fixed": "E"
-      },
-      null,
-      null,
       null
     ],
     [
       null,
       null,
-      {
-        "fixed": "R"
-      },
       null,
       {
         "fixed": "A"
       },
       {
-        "fixed": "L"
-      }
+        "fixed": "U"
+      },
+      null
     ],
     [
       {
-        "fixed": "H"
-      },
-      {
-        "fixed": "A"
+        "fixed": "N"
       },
       null,
       {
-        "fixed": "L"
+        "fixed": "U"
       },
+      {
+        "fixed": "T"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "K"
+      },
+      null,
+      null,
+      null,
       null,
       null
     ],
@@ -81,25 +79,27 @@
       {
         "blocked": true
       },
-      null,
-      {
-        "fixed": "A"
-      },
       {
         "fixed": "S"
       },
       {
-        "fixed": "K"
+        "fixed": "E"
       },
-      null
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "S"
+      }
     ]
   ],
   "solution": [
-    "BUSES#",
-    "ANIGAV",
-    "TSEDLO",
-    "CEREAL",
-    "HARLOT",
-    "#TASKS"
+    "TNALP#",
+    "ROLIAS",
+    "UMLAUT",
+    "NRUTPU",
+    "KERNEL",
+    "#SEERS"
   ]
 }
