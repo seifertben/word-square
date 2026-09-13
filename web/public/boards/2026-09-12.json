@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-12",
+  "size": 6,
+  "minWordLength": 6,
+  "grid": [
+    [
+      {
+        "fixed": "B"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "T"
+      },
+      null,
+      null,
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "O"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "C"
+      },
+      null,
+      {
+        "fixed": "K"
+      },
+      null,
+      null,
+      {
+        "fixed": "G"
+      }
+    ],
+    [
+      {
+        "fixed": "U"
+      },
+      null,
+      null,
+      {
+        "fixed": "A"
+      },
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "G"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "S"
+      },
+      null
+    ]
+  ],
+  "solution": [
+    "BATTLE",
+    "ADORED",
+    "COKING",
+    "UNEASE",
+    "LINGER",
+    "ASSESS"
+  ]
+}

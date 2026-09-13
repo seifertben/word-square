@@ -1,0 +1,31 @@
+# Python / uv
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Node / web
+web/node_modules/
+web/dist/
+web/*.tsbuildinfo
+web/vite.config.d.ts
+web/vite.config.js
+
+# Local generated boards
+local-data/
+
+# Static-build boards (committed so a static host can ship them)
+!web/public/
+web/public/*
+!web/public/boards/
+!web/public/boards/*.json
+!web/public/dictionary/
+!web/public/dictionary/*.json
+
+# Env
+.env
+
+# OS
+.DS_Store

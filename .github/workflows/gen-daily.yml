@@ -1,0 +1,85 @@
+name: Generate Daily Board
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Board date (YYYY-MM-DD); defaults to today's date in Eastern Time"
+        type: string
+        required: false
+      seed:
+        description: "Override the date-derived seed. Regenerates even if a board already exists for the date."
+        type: string
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gen-daily
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: astral-sh/setup-uv@v5
+
+      - name: Install Python dependencies
+        run: uv sync
+
+      - name: Determine board date
+        id: date
+        run: echo "date=${BOARD_DATE:-$(TZ=America/New_York date +%Y-%m-%d)}" >> "$GITHUB_OUTPUT"
+        env:
+          BOARD_DATE: ${{ inputs.date }}
+
+      - name: Check if board already exists
+        id: check
+        run: |
+          if [ "${MANUAL}" = "true" ]; then
+            echo "Manual run — regenerating regardless of existing board"
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          elif [ -f "web/public/boards/${{ steps.date.outputs.date }}.json" ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "Board for ${{ steps.date.outputs.date }} already exists — no-op"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+        env:
+          MANUAL: ${{ github.event_name == 'workflow_dispatch' }}
+
+      - name: Generate board
+        if: steps.check.outputs.exists != 'true'
+        id: gen
+        env:
+          SEED: ${{ inputs.seed }}
+        run: |
+          SEED_ARG=""
+          if [ -n "${SEED}" ]; then
+            SEED_ARG="--seed ${SEED}"
+            echo "Using custom seed ${SEED}"
+          fi
+          PUZZLE_STORE=static uv run python -m generator "${{ steps.date.outputs.date }}" $SEED_ARG
+
+      - name: Commit and push
+        if: steps.check.outputs.exists != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add web/public/boards
+          if git diff --cached --quiet; then
+            echo "No new board to commit"
+          else
+            git commit -m "Generate board for ${{ steps.date.outputs.date }}"
+            git push
+          fi

@@ -1,0 +1,107 @@
+{
+  "date": "2026-09-13",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      null,
+      null,
+      {
+        "fixed": "T"
+      },
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "I"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "A"
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "B"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "M"
+      },
+      {
+        "fixed": "O"
+      },
+      {
+        "fixed": "D"
+      },
+      null,
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "O"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "G"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "M"
+      },
+      {
+        "fixed": "E"
+      }
+    ]
+  ],
+  "solution": [
+    "ATTAR#",
+    "GUINEA",
+    "EMBALM",
+    "MODULE",
+    "ORIGIN",
+    "#STIME"
+  ]
+}

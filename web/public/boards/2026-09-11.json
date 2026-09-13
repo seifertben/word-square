@@ -1,0 +1,95 @@
+{
+  "date": "2026-09-11",
+  "size": 6,
+  "minWordLength": 6,
+  "grid": [
+    [
+      null,
+      null,
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "P"
+      },
+      null,
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "H"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "M"
+      },
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "M"
+      },
+      {
+        "fixed": "I"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "H"
+      },
+      null,
+      null,
+      null
+    ]
+  ],
+  "solution": [
+    "POSTER",
+    "OPIATE",
+    "SIRRAH",
+    "TARAMA",
+    "ETAMIN",
+    "REHANG"
+  ]
+}

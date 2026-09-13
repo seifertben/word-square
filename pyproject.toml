@@ -1,0 +1,43 @@
+[project]
+name = "word-square"
+version = "0.1.0"
+description = "6x6 daily word-square game: fill the grid so every row and column is a word"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.32",
+    "httpx>=0.28",
+    "python-dotenv>=1.0",
+    "tzdata>=2024.1",
+    "wordfreq>=3.1.1",
+]
+
+[project.optional-dependencies]
+gcs = ["google-cloud-storage>=2.14"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "ruff>=0.6",
+    "mypy>=1.11",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 99
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+warn_unused_ignores = true
+
+[tool.uv]
+package = false
