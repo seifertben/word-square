@@ -146,6 +146,13 @@ export default function App() {
           <span>{board.date}</span>
           <span className="timer">{fmt(timer.elapsed)}</span>
         </div>
+        <p className="instructions">
+          Fill the blank cells so every row and column spells a valid English
+          word, read in either direction (the blacked-out corners are skipped).
+          Given letters are locked in. The row or column you’re editing is
+          highlighted, and any line that forms a complete dictionary word gets
+          a green outline.
+        </p>
       </header>
 
       <div

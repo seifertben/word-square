@@ -14,7 +14,6 @@ interface GridProps {
 }
 
 export function Grid({ board, grid, cursor, direction, wrong, valid, onCellClick }: GridProps) {
-
   return (
     <div className="board-wrap">
       <div
@@ -31,8 +30,6 @@ export function Grid({ board, grid, cursor, direction, wrong, valid, onCellClick
             const key = `${r}-${c}`;
             const selected = direction === "across" ? cursor.row === r : cursor.col === c;
             const isWrong = wrong.has(key);
-            const inValidRow = !blocked && valid.rows.has(r);
-            const inValidCol = !blocked && valid.cols.has(c);
             const classes = [
               "cell",
               blocked ? "blocked" : "",
@@ -40,8 +37,6 @@ export function Grid({ board, grid, cursor, direction, wrong, valid, onCellClick
               isCursor ? "current" : "",
               selected && !isCursor && !blocked ? "selected" : "",
               isWrong ? "wrong" : "",
-              inValidRow ? "valid-row" : "",
-              inValidCol ? "valid-col" : "",
             ]
               .filter(Boolean)
               .join(" ");
@@ -50,6 +45,7 @@ export function Grid({ board, grid, cursor, direction, wrong, valid, onCellClick
                 key={key}
                 role="gridcell"
                 className={classes}
+                style={{ gridRow: r + 1, gridColumn: c + 1 }}
                 tabIndex={-1}
                 disabled={blocked}
                 onClick={() => onCellClick({ row: r, col: c })}
@@ -60,6 +56,48 @@ export function Grid({ board, grid, cursor, direction, wrong, valid, onCellClick
             );
           }),
         )}
+        {[...valid.rows].map((row) => {
+          const first = board.grid[row].findIndex((cell) => !(cell && "blocked" in cell));
+          const last = board.grid[row]
+            .map((cell) => !(cell && "blocked" in cell))
+            .lastIndexOf(true);
+          return first < 0 ? null : (
+            <span
+              key={`valid-row-${row}`}
+              className="valid-word-line across"
+              style={{ gridRow: row + 1, gridColumn: `${first + 1} / ${last + 2}` }}
+              aria-hidden="true"
+            >
+              {Array.from({ length: last - first + 1 }, (_, index) => (
+                <i key={index} />
+              ))}
+            </span>
+          );
+        })}
+        {[...valid.cols].map((col) => {
+          const first = board.grid.findIndex((row) => {
+            const cell = row[col];
+            return !(cell && "blocked" in cell);
+          });
+          const last = board.grid
+            .map((row) => {
+              const cell = row[col];
+              return !(cell && "blocked" in cell);
+            })
+            .lastIndexOf(true);
+          return first < 0 ? null : (
+            <span
+              key={`valid-col-${col}`}
+              className="valid-word-line down"
+              style={{ gridRow: `${first + 1} / ${last + 2}`, gridColumn: col + 1 }}
+              aria-hidden="true"
+            >
+              {Array.from({ length: last - first + 1 }, (_, index) => (
+                <i key={index} />
+              ))}
+            </span>
+          );
+        })}
       </div>
     </div>
   );

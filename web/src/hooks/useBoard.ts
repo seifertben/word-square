@@ -9,6 +9,7 @@ export interface BoardState {
   grid: Grid;
   cursor: Pos;
   direction: Direction;
+  typingDelta: 1 | -1;
   wrong: Set<string>; // "r-c" cells flagged invalid by Check
 }
 
@@ -63,6 +64,17 @@ function nextEditable(
   return null;
 }
 
+function typingDeltaForClick(
+  board: Board,
+  grid: Grid,
+  pos: Pos,
+  direction: Direction,
+): 1 | -1 {
+  const forward = nextEditable(board, grid, pos, direction, 1, true);
+  const reverse = nextEditable(board, grid, pos, direction, -1, true);
+  return !forward && reverse ? -1 : 1;
+}
+
 function nextPlayable(board: Board, start: Pos, direction: Direction, delta: number): Pos | null {
   let pos = step(start, direction, delta);
   while (inBoundsAt(board.size, pos)) {
@@ -81,7 +93,7 @@ function firstPlayable(board: Board): Pos {
   return { row: 0, col: 0 };
 }
 
-function makeReducer(board: Board) {
+export function makeReducer(board: Board) {
   function reduce(state: BoardState, action: Action): BoardState {
     switch (action.type) {
       case "type": {
@@ -94,14 +106,21 @@ function makeReducer(board: Board) {
         const wrong = new Set(state.wrong);
         wrong.delete(cellKey(state.cursor));
         const cursor =
-          nextEditable(board, grid, state.cursor, state.direction, 1, true) ?? state.cursor;
+          nextEditable(board, grid, state.cursor, state.direction, state.typingDelta, true) ??
+          state.cursor;
         return { ...state, grid, cursor, wrong };
       }
       case "backspace": {
         if (isBlocked(board, state.cursor.row, state.cursor.col)) return state;
         if (isFixed(board, state.cursor.row, state.cursor.col)) {
           const cursor =
-            nextEditable(board, state.grid, state.cursor, state.direction, -1) ?? state.cursor;
+            nextEditable(
+              board,
+              state.grid,
+              state.cursor,
+              state.direction,
+              -state.typingDelta,
+            ) ?? state.cursor;
           return { ...state, cursor };
         }
         const grid = cloneGrid(state.grid);
@@ -109,7 +128,13 @@ function makeReducer(board: Board) {
         if (letterAt(grid, cursor) != null) {
           grid[cursor.row][cursor.col] = null;
         } else {
-          const prev = nextEditable(board, grid, cursor, state.direction, -1);
+          const prev = nextEditable(
+            board,
+            grid,
+            cursor,
+            state.direction,
+            -state.typingDelta,
+          );
           if (prev) {
             cursor = prev;
             grid[prev.row][prev.col] = null;
@@ -120,7 +145,9 @@ function makeReducer(board: Board) {
         return { ...state, grid, cursor, wrong };
       }
       case "move": {
-        if (state.direction !== action.axis) return { ...state, direction: action.axis };
+        if (state.direction !== action.axis) {
+          return { ...state, direction: action.axis, typingDelta: 1 };
+        }
         const delta = action.dr || action.dc;
         const cursor = nextPlayable(board, state.cursor, action.axis, delta) ?? state.cursor;
         return { ...state, cursor };
@@ -129,6 +156,7 @@ function makeReducer(board: Board) {
         return {
           ...state,
           direction: state.direction === "across" ? "down" : "across",
+          typingDelta: 1,
         };
       case "nextLine": {
         const line = state.direction === "across" ? state.cursor.row : state.cursor.col;
@@ -139,17 +167,19 @@ function makeReducer(board: Board) {
         if (isBlocked(board, cursor.row, cursor.col)) {
           cursor = nextPlayable(board, cursor, state.direction, 1) ?? cursor;
         }
-        return { ...state, cursor };
+        return { ...state, cursor, typingDelta: 1 };
       }
       case "clickCell": {
         if (isBlocked(board, action.pos.row, action.pos.col)) return state;
         const same = state.cursor.row === action.pos.row && state.cursor.col === action.pos.col;
+        const direction = same
+          ? state.direction === "across" ? "down" : "across"
+          : state.direction;
         return {
           ...state,
           cursor: action.pos,
-          direction: same
-            ? state.direction === "across" ? "down" : "across"
-            : state.direction,
+          direction,
+          typingDelta: typingDeltaForClick(board, state.grid, action.pos, direction),
         };
       }
       case "check": {
@@ -173,6 +203,7 @@ function makeReducer(board: Board) {
           grid: action.grid,
           cursor: action.cursor,
           direction: action.direction ?? state.direction,
+          typingDelta: 1,
           wrong: new Set<string>(),
         };
       default:
@@ -210,6 +241,7 @@ export function useBoard(board: Board | null, dictionary: Set<string> | null): U
     grid: createEmptyGrid(b),
     cursor: firstPlayable(b),
     direction: "across",
+    typingDelta: 1,
     wrong: new Set<string>(),
   });
 
