@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-14",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "C"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "G"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "L"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "I"
+      },
+      null,
+      null,
+      {
+        "fixed": "P"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "fixed": "A"
+      }
+    ],
+    [
+      {
+        "fixed": "L"
+      },
+      null,
+      null,
+      {
+        "fixed": "G"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "S"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#CAGEY",
+    "SENALP",
+    "TSIRUP",
+    "OIGADA",
+    "LUNGES",
+    "SMAES#"
+  ]
+}
