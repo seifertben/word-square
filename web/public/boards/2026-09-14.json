@@ -8,38 +8,50 @@
         "blocked": true
       },
       {
-        "fixed": "C"
+        "fixed": "S"
       },
+      null,
       {
-        "fixed": "A"
+        "fixed": "E"
       },
+      null,
       {
-        "fixed": "G"
+        "fixed": "S"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "I"
       },
       null,
       null
     ],
     [
       {
+        "fixed": "T"
+      },
+      null,
+      null,
+      {
         "fixed": "S"
       },
-      {
-        "fixed": "E"
-      },
-      {
-        "fixed": "N"
-      },
+      null,
       {
         "fixed": "A"
-      },
-      {
-        "fixed": "L"
-      },
-      null
+      }
     ],
     [
       {
-        "fixed": "T"
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "S"
       },
       {
         "fixed": "S"
@@ -47,47 +59,35 @@
       {
         "fixed": "I"
       },
-      null,
-      null,
-      {
-        "fixed": "P"
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "fixed": "A"
-      }
+      null
     ],
     [
       {
-        "fixed": "L"
+        "fixed": "O"
+      },
+      {
+        "fixed": "C"
+      },
+      {
+        "fixed": "T"
       },
       null,
+      null,
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "O"
+      },
       null,
       {
         "fixed": "G"
-      },
-      {
-        "fixed": "E"
-      },
-      {
-        "fixed": "S"
-      }
-    ],
-    [
-      null,
-      null,
-      {
-        "fixed": "A"
-      },
-      null,
-      {
-        "fixed": "S"
       },
       {
         "blocked": true
@@ -95,11 +95,11 @@
     ]
   ],
   "solution": [
-    "#CAGEY",
-    "SENALP",
-    "TSIRUP",
-    "OIGADA",
-    "LUNGES",
-    "SMAES#"
+    "#SPEES",
+    "AERIAL",
+    "TNESSA",
+    "RESSIK",
+    "OCTANE",
+    "SSOLG#"
   ]
 }
