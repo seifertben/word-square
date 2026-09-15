@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-15",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      null,
+      {
+        "fixed": "O"
+      },
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      {
+        "fixed": "V"
+      },
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "L"
+      }
+    ],
+    [
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "N"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "fixed": "D"
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "S"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#DOSES",
+    "VERNAL",
+    "INNATE",
+    "SOAKED",
+    "OTTERS",
+    "REEDS#"
+  ]
+}
