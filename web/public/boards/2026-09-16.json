@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-16",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "G"
+      },
+      null,
+      {
+        "fixed": "N"
+      },
+      null,
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      {
+        "fixed": "D"
+      },
+      null,
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "L"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "G"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "M"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      null,
+      {
+        "fixed": "T"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "V"
+      },
+      null,
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#GANGS",
+    "DENIAL",
+    "ENIGMA",
+    "NEMREM",
+    "TRAITS",
+    "SALVE#"
+  ]
+}
