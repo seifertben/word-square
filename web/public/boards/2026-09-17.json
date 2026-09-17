@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-17",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "L"
+      },
+      null,
+      null,
+      {
+        "fixed": "U"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "M"
+      },
+      null,
+      {
+        "fixed": "T"
+      }
+    ],
+    [
+      {
+        "fixed": "C"
+      },
+      null,
+      {
+        "fixed": "N"
+      },
+      null,
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      null,
+      {
+        "fixed": "I"
+      },
+      null
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "D"
+      },
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "M"
+      },
+      null
+    ]
+  ],
+  "solution": [
+    "DRESS#",
+    "LEMURS",
+    "OTAMOT",
+    "CANINE",
+    "SRENIM",
+    "#DRAMS"
+  ]
+}
