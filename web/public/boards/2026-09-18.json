@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-18",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "U"
+      },
+      {
+        "fixed": "T"
+      },
+      null,
+      {
+        "blocked": true
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "U"
+      },
+      {
+        "fixed": "T"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "C"
+      },
+      null,
+      {
+        "fixed": "D"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "O"
+      },
+      null,
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "P"
+      },
+      null,
+      null,
+      null,
+      {
+        "fixed": "O"
+      },
+      {
+        "fixed": "N"
+      }
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "C"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "S"
+      }
+    ]
+  ],
+  "solution": [
+    "SAUTE#",
+    "RENRUT",
+    "ENCODE",
+    "EROCNE",
+    "POISON",
+    "#CLEFS"
+  ]
+}
