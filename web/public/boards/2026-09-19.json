@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-19",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "D"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "V"
+      },
+      null,
+      {
+        "fixed": "I"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "V"
+      },
+      null,
+      {
+        "fixed": "T"
+      },
+      null,
+      {
+        "fixed": "O"
+      }
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "L"
+      },
+      null,
+      {
+        "fixed": "T"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "P"
+      },
+      null,
+      {
+        "fixed": "T"
+      },
+      null,
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "T"
+      }
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "H"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "Y"
+      }
+    ]
+  ],
+  "solution": [
+    "ESNED#",
+    "VEILED",
+    "EVATCO",
+    "ELTTAT",
+    "PATENT",
+    "#HASTY"
+  ]
+}
