@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-20",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      null,
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "G"
+      },
+      null,
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "N"
+      },
+      null,
+      {
+        "fixed": "O"
+      }
+    ],
+    [
+      {
+        "fixed": "R"
+      },
+      null,
+      null,
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "P"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "P"
+      },
+      {
+        "fixed": "O"
+      },
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "O"
+      },
+      {
+        "fixed": "D"
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#SRAED",
+    "GRINGO",
+    "REPMAP",
+    "IMPURE",
+    "POLLOD",
+    "SHEAF#"
+  ]
+}
