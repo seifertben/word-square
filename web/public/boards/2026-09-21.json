@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-21",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "D"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "S"
+      },
+      null,
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "R"
+      },
+      null
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "A"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "M"
+      },
+      {
+        "fixed": "P"
+      },
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "Y"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#REDDA",
+    "EASIER",
+    "GNISAE",
+    "ADAMRA",
+    "MORALS",
+    "IMPLY#"
+  ]
+}
