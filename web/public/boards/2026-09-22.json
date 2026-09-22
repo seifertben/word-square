@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-22",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "P"
+      },
+      null,
+      null,
+      {
+        "fixed": "K"
+      },
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "I"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "O"
+      },
+      null,
+      null,
+      {
+        "fixed": "G"
+      },
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "N"
+      }
+    ],
+    [
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "A"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "T"
+      },
+      null,
+      null,
+      null,
+      {
+        "fixed": "B"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#PUCKS",
+    "WINING",
+    "ORIGIN",
+    "RATAVA",
+    "STEREB",
+    "TESTS#"
+  ]
+}
