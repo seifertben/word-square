@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-23",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "H"
+      },
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "L"
+      },
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "I"
+      },
+      null,
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "L"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "fixed": "C"
+      }
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "S"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#REEHS",
+    "FELLOW",
+    "ACTIVE",
+    "LITNEL",
+    "STAELC",
+    "EERPS#"
+  ]
+}
