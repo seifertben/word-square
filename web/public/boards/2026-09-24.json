@@ -1,0 +1,107 @@
+{
+  "date": "2026-09-24",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      null,
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "K"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "A"
+      },
+      null,
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "C"
+      }
+    ],
+    [
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "G"
+      },
+      {
+        "fixed": "O"
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "G"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "Y"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#LLENK",
+    "TAEVAC",
+    "INDIGO",
+    "POGROM",
+    "STEELS",
+    "YARDS#"
+  ]
+}
