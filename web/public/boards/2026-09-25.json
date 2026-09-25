@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-25",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "I"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "O"
+      },
+      {
+        "fixed": "N"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "O"
+      },
+      null,
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "P"
+      }
+    ],
+    [
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "M"
+      },
+      {
+        "fixed": "I"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "A"
+      },
+      null,
+      null,
+      {
+        "fixed": "D"
+      },
+      null
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "T"
+      },
+      null,
+      null,
+      {
+        "fixed": "S"
+      }
+    ]
+  ],
+  "solution": [
+    "SNIDE#",
+    "LONERS",
+    "LOTSIP",
+    "ALAPMI",
+    "FACADE",
+    "#STLAS"
+  ]
+}
