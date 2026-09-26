@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-26",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      null,
+      {
+        "fixed": "L"
+      },
+      null,
+      {
+        "fixed": "H"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "P"
+      },
+      null,
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      {
+        "fixed": "P"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "M"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "T"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      null
+    ]
+  ],
+  "solution": [
+    "YLYHS#",
+    "SATIRE",
+    "SISPES",
+    "ERUPTS",
+    "MERINO",
+    "#STEEP"
+  ]
+}
