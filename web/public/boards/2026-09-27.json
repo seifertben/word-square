@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-27",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      null,
+      {
+        "fixed": "O"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "O"
+      },
+      {
+        "fixed": "D"
+      },
+      null,
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "I"
+      },
+      null,
+      null,
+      null,
+      {
+        "fixed": "P"
+      }
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "L"
+      },
+      null,
+      {
+        "fixed": "O"
+      },
+      null
+    ],
+    [
+      {
+        "blocked": true
+      },
+      null,
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "P"
+      },
+      {
+        "fixed": "S"
+      }
+    ]
+  ],
+  "solution": [
+    "WOMEN#",
+    "ANODES",
+    "NIGULP",
+    "ERULLA",
+    "DELLOT",
+    "#MSAPS"
+  ]
+}
