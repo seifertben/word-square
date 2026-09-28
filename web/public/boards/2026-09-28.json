@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-28",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      {
+        "fixed": "L"
+      }
+    ],
+    [
+      {
+        "fixed": "F"
+      },
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "O"
+      }
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "V"
+      },
+      {
+        "fixed": "E"
+      },
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "fixed": "A"
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "C"
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "B"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#FERAL",
+    "FOREGO",
+    "ESIVER",
+    "STPEDA",
+    "TESROC",
+    "SRAEB#"
+  ]
+}
