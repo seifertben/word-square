@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-29",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "fixed": "W"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "S"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "Z"
+      },
+      {
+        "fixed": "N"
+      },
+      null,
+      null,
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      {
+        "fixed": "A"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "D"
+      },
+      null,
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "N"
+      },
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "D"
+      },
+      null
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "W"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "H"
+      }
+    ]
+  ],
+  "solution": [
+    "WEEPS#",
+    "AZNATS",
+    "NETSAH",
+    "DEITNU",
+    "SHREDS",
+    "#WELSH"
+  ]
+}
