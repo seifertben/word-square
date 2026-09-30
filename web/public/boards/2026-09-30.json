@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-30",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      null,
+      null,
+      {
+        "fixed": "O"
+      },
+      {
+        "fixed": "M"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "T"
+      },
+      null,
+      null,
+      {
+        "fixed": "N"
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "B"
+      },
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "G"
+      },
+      null,
+      null,
+      {
+        "fixed": "N"
+      }
+    ],
+    [
+      {
+        "fixed": "C"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "L"
+      },
+      null,
+      {
+        "fixed": "P"
+      },
+      null
+    ]
+  ],
+  "solution": [
+    "RUOMA#",
+    "ATTAIN",
+    "ETALBO",
+    "LEGION",
+    "CRECHE",
+    "#SLEPT"
+  ]
+}
