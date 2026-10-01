@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-01",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      null,
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "G"
+      },
+      {
+        "fixed": "N"
+      },
+      null,
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "N"
+      },
+      null,
+      {
+        "fixed": "D"
+      },
+      null,
+      {
+        "fixed": "A"
+      }
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "G"
+      },
+      {
+        "fixed": "N"
+      },
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "G"
+      }
+    ],
+    [
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "Y"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#WAITS",
+    "SIGNET",
+    "TNEDRA",
+    "EGNURG",
+    "RECCOS",
+    "FRYER#"
+  ]
+}
