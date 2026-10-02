@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-02",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "I"
+      },
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "N"
+      },
+      null,
+      null,
+      {
+        "fixed": "B"
+      }
+    ],
+    [
+      {
+        "fixed": "H"
+      },
+      {
+        "fixed": "A"
+      },
+      null,
+      null,
+      {
+        "fixed": "L"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "M"
+      },
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "blocked": true
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      null
+    ]
+  ],
+  "solution": [
+    "UEIDA#",
+    "SDNILB",
+    "HASSLE",
+    "EMASES",
+    "RENEGE",
+    "#RESET"
+  ]
+}
