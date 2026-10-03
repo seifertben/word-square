@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-03",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "V"
+      },
+      null,
+      {
+        "fixed": "R"
+      }
+    ],
+    [
+      {
+        "fixed": "O"
+      },
+      {
+        "fixed": "D"
+      },
+      null,
+      null,
+      {
+        "fixed": "V"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "N"
+      },
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "T"
+      }
+    ],
+    [
+      {
+        "fixed": "C"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "I"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "C"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#ESARE",
+    "CLOVER",
+    "ODREVO",
+    "NATRAT",
+    "CRISES",
+    "HCEEB#"
+  ]
+}
