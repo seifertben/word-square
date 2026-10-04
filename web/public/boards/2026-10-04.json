@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-04",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      null,
+      null,
+      {
+        "fixed": "U"
+      },
+      null,
+      {
+        "fixed": "H"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "L"
+      },
+      null,
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "T"
+      }
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "fixed": "I"
+      }
+    ],
+    [
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "T"
+      },
+      null,
+      {
+        "fixed": "I"
+      },
+      null
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      {
+        "fixed": "L"
+      }
+    ]
+  ],
+  "solution": [
+    "COUCH#",
+    "APPLES",
+    "SEDART",
+    "ENASNI",
+    "DETSIL",
+    "#REYAL"
+  ]
+}
