@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-05",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "B"
+      },
+      null,
+      {
+        "fixed": "D"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "G"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "L"
+      },
+      null,
+      null,
+      {
+        "fixed": "N"
+      }
+    ],
+    [
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "O"
+      },
+      null,
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "I"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "A"
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "S"
+      },
+      null,
+      null,
+      {
+        "fixed": "T"
+      }
+    ],
+    [
+      {
+        "blocked": true
+      },
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      null
+    ]
+  ],
+  "solution": [
+    "EBBED#",
+    "GALLON",
+    "NROBNI",
+    "IGUANA",
+    "SESNET",
+    "#SEEDS"
+  ]
+}
