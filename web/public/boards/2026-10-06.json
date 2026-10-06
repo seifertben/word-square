@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-06",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "fixed": "B"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "D"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "A"
+      },
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "D"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "C"
+      },
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "R"
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "O"
+      },
+      null,
+      null,
+      {
+        "fixed": "I"
+      },
+      null
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "A"
+      },
+      null,
+      null
+    ]
+  ],
+  "solution": [
+    "BROAD#",
+    "RANGES",
+    "ADHERE",
+    "DICNAR",
+    "SOEDIV",
+    "#STALE"
+  ]
+}
