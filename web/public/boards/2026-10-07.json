@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-07",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "fixed": "B"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "blocked": true
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "P"
+      },
+      null,
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      {
+        "fixed": "L"
+      },
+      null,
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "E"
+      },
+      null
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "I"
+      },
+      null,
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "G"
+      },
+      null,
+      {
+        "fixed": "N"
+      },
+      null
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "U"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "F"
+      },
+      null,
+      null
+    ]
+  ],
+  "solution": [
+    "BEARS#",
+    "UPSETS",
+    "LISTEN",
+    "GRILLE",
+    "ENGINE",
+    "#UNFIT"
+  ]
+}
