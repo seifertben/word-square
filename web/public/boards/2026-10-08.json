@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-08",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "O"
+      },
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "C"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "U"
+      },
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "H"
+      }
+    ],
+    [
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "O"
+      },
+      null,
+      {
+        "fixed": "S"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "H"
+      },
+      null,
+      null,
+      {
+        "fixed": "F"
+      }
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "I"
+      },
+      null,
+      {
+        "fixed": "S"
+      }
+    ]
+  ],
+  "solution": [
+    "YGNAR#",
+    "SNONAC",
+    "SUTAIH",
+    "AROUSE",
+    "STHGIF",
+    "#SPINS"
+  ]
+}
