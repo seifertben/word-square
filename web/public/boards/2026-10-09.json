@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-09",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      null,
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "O"
+      },
+      {
+        "fixed": "P"
+      },
+      null,
+      null,
+      {
+        "fixed": "C"
+      },
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "I"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "O"
+      },
+      null,
+      {
+        "fixed": "B"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "U"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "C"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#SDEES",
+    "NEEDLE",
+    "OPTICS",
+    "TSITRA",
+    "CINOIB",
+    "HSURC#"
+  ]
+}
