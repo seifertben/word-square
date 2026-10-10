@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-10",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "W"
+      },
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "T"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "T"
+      },
+      null,
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "M"
+      },
+      null,
+      null,
+      null,
+      {
+        "fixed": "O"
+      }
+    ],
+    [
+      {
+        "fixed": "M"
+      },
+      null,
+      {
+        "fixed": "L"
+      },
+      null,
+      null,
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "V"
+      },
+      null,
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#WAXES",
+    "PARENT",
+    "ORATOR",
+    "EMBRYO",
+    "MELONS",
+    "SREVA#"
+  ]
+}
