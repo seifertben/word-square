@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-11",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "O"
+      },
+      null,
+      {
+        "blocked": true
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "R"
+      },
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "N"
+      },
+      null,
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "P"
+      }
+    ],
+    [
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "C"
+      },
+      {
+        "fixed": "I"
+      },
+      null,
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "I"
+      },
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      }
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "C"
+      }
+    ]
+  ],
+  "solution": [
+    "STSOC#",
+    "TEGRAT",
+    "SKNALP",
+    "ICICLE",
+    "MILLER",
+    "#TSERC"
+  ]
+}
