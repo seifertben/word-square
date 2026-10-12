@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-12",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "S"
+      },
+      null,
+      null,
+      {
+        "fixed": "O"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "B"
+      },
+      {
+        "fixed": "B"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "R"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "fixed": "T"
+      }
+    ],
+    [
+      {
+        "fixed": "R"
+      },
+      null,
+      null,
+      {
+        "fixed": "N"
+      },
+      null,
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#SRUOP",
+    "SSERGE",
+    "TIBBAR",
+    "AMUART",
+    "REKNIS",
+    "SREEV#"
+  ]
+}
