@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-13",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      null,
+      null,
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "G"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "N"
+      },
+      null,
+      {
+        "fixed": "L"
+      },
+      null,
+      {
+        "fixed": "U"
+      },
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "G"
+      },
+      null,
+      null,
+      {
+        "fixed": "T"
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "G"
+      },
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "M"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      {
+        "fixed": "F"
+      },
+      null,
+      {
+        "fixed": "R"
+      }
+    ],
+    [
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "M"
+      },
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#HEDGE",
+    "NELLUS",
+    "URGENT",
+    "REGIME",
+    "ETUFER",
+    "ROMAN#"
+  ]
+}
