@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-14",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "R"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "M"
+      },
+      null,
+      {
+        "fixed": "M"
+      },
+      null,
+      null,
+      {
+        "fixed": "L"
+      }
+    ],
+    [
+      {
+        "fixed": "U"
+      },
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "O"
+      },
+      null,
+      null,
+      {
+        "fixed": "A"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "I"
+      },
+      null,
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "B"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "D"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#LEURC",
+    "MAMMAL",
+    "UTOPIA",
+    "SECILS",
+    "ENERES",
+    "STBED#"
+  ]
+}
