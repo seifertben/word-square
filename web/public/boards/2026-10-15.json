@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-15",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      {
+        "fixed": "C"
+      },
+      null,
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "S"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "K"
+      },
+      {
+        "fixed": "I"
+      },
+      null,
+      {
+        "fixed": "P"
+      },
+      null,
+      {
+        "fixed": "R"
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "A"
+      },
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "blocked": true
+      },
+      null,
+      {
+        "fixed": "A"
+      },
+      null,
+      null,
+      null
+    ]
+  ],
+  "solution": [
+    "DAETS#",
+    "OERETS",
+    "CREASE",
+    "KIPPER",
+    "SAMORA",
+    "#LATCH"
+  ]
+}
