@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-16",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "S"
+      },
+      null,
+      null,
+      {
+        "fixed": "U"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "A"
+      }
+    ],
+    [
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "S"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "A"
+      },
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "T"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "U"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#SEBUC",
+    "ERRATA",
+    "REUSES",
+    "ASSERT",
+    "TISSUE",
+    "SRATS#"
+  ]
+}
