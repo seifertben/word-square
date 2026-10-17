@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-17",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "D"
+      },
+      null,
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "G"
+      }
+    ],
+    [
+      {
+        "fixed": "W"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "L"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "S"
+      },
+      null,
+      null,
+      null,
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "V"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "N"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      null,
+      null,
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "W"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#DEERG",
+    "WELTER",
+    "ASPIRE",
+    "LARVAE",
+    "ERUNET",
+    "SEPIW#"
+  ]
+}
