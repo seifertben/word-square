@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-18",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "N"
+      },
+      null,
+      {
+        "fixed": "L"
+      },
+      null,
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "O"
+      },
+      null,
+      null,
+      null,
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "C"
+      },
+      {
+        "fixed": "A"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "C"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "K"
+      },
+      null,
+      {
+        "fixed": "R"
+      }
+    ],
+    [
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "G"
+      },
+      null,
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "T"
+      }
+    ],
+    [
+      {
+        "fixed": "O"
+      },
+      {
+        "fixed": "B"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#NOLAH",
+    "MORALE",
+    "ACACIA",
+    "CANKER",
+    "REGENT",
+    "OBEYS#"
+  ]
+}
