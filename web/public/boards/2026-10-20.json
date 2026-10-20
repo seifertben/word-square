@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-20",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "fixed": "M"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "C"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "Y"
+      },
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      {
+        "fixed": "R"
+      }
+    ],
+    [
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "O"
+      },
+      null,
+      null,
+      {
+        "fixed": "L"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "H"
+      },
+      {
+        "fixed": "C"
+      },
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "T"
+      }
+    ],
+    [
+      {
+        "blocked": true
+      },
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      null
+    ]
+  ],
+  "solution": [
+    "MEDIC#",
+    "YDEMER",
+    "TOPPLE",
+    "HCUOLS",
+    "SETSAT",
+    "#DYERS"
+  ]
+}
