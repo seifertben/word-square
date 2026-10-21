@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-21",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      null,
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "D"
+      },
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "L"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "O"
+      },
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "I"
+      },
+      null,
+      {
+        "fixed": "A"
+      }
+    ],
+    [
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "C"
+      },
+      null,
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "X"
+      },
+      null,
+      null,
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "F"
+      },
+      null,
+      {
+        "fixed": "R"
+      }
+    ]
+  ],
+  "solution": [
+    "DIDER#",
+    "OMELET",
+    "OPTIMA",
+    "LAICOS",
+    "FIXATE",
+    "#REFER"
+  ]
+}
