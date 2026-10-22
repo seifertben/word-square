@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-22",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "A"
+      },
+      null,
+      null,
+      {
+        "fixed": "A"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "D"
+      },
+      null,
+      null,
+      {
+        "fixed": "R"
+      },
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "L"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "O"
+      },
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "D"
+      }
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "O"
+      },
+      null,
+      null,
+      {
+        "fixed": "E"
+      }
+    ]
+  ],
+  "solution": [
+    "REGNA#",
+    "ARRANT",
+    "DAORNI",
+    "ASTRAL",
+    "RETOLD",
+    "#DOWSE"
+  ]
+}
