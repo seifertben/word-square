@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-23",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "F"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      }
+    ],
+    [
+      {
+        "fixed": "U"
+      },
+      null,
+      {
+        "fixed": "M"
+      },
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "K"
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "L"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#REERF",
+    "MERGER",
+    "UNMADE",
+    "LAIREA",
+    "LENNEK",
+    "SLEEF#"
+  ]
+}
