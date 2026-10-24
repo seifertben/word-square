@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-24",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "T"
+      },
+      null,
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "L"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "R"
+      }
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "N"
+      },
+      null,
+      null,
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "O"
+      }
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "I"
+      },
+      null,
+      {
+        "fixed": "N"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "R"
+      },
+      null,
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#TNILF",
+    "DEGNIR",
+    "ENILNO",
+    "ENSIGN",
+    "DESNET",
+    "SRAER#"
+  ]
+}
