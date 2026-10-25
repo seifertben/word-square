@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-25",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "D"
+      },
+      null,
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "N"
+      },
+      null,
+      {
+        "fixed": "A"
+      },
+      null,
+      null,
+      {
+        "fixed": "D"
+      }
+    ],
+    [
+      {
+        "fixed": "U"
+      },
+      {
+        "fixed": "N"
+      },
+      null,
+      {
+        "fixed": "I"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      {
+        "fixed": "A"
+      },
+      null
+    ],
+    [
+      {
+        "blocked": true
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "S"
+      }
+    ]
+  ],
+  "solution": [
+    "READS#",
+    "ALTERS",
+    "NIATED",
+    "UNRIPE",
+    "LERUAL",
+    "#PESTS"
+  ]
+}
