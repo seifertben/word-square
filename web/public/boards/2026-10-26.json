@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-26",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      null,
+      null,
+      {
+        "fixed": "P"
+      },
+      null,
+      {
+        "fixed": "Y"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "N"
+      },
+      null,
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      {
+        "fixed": "T"
+      },
+      null,
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "A"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "A"
+      }
+    ],
+    [
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "O"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "P"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "S"
+      }
+    ]
+  ],
+  "solution": [
+    "NIPPY#",
+    "INLETS",
+    "TSETAL",
+    "ETAREA",
+    "RESORT",
+    "#PELTS"
+  ]
+}
