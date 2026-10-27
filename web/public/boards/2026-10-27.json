@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-27",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      null,
+      {
+        "fixed": "Y"
+      },
+      {
+        "fixed": "M"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "Y"
+      },
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "D"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "O"
+      },
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "E"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "A"
+      }
+    ],
+    [
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "M"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      null
+    ]
+  ],
+  "solution": [
+    "HYMNS#",
+    "YRAERD",
+    "POTTER",
+    "EMUSSA",
+    "DERIAH",
+    "#MELTS"
+  ]
+}
