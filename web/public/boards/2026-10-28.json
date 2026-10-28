@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-28",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      null,
+      {
+        "fixed": "L"
+      },
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "B"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "U"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "D"
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "L"
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "Z"
+      },
+      null
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "S"
+      },
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "M"
+      }
+    ]
+  ],
+  "solution": [
+    "BLURB#",
+    "LINERS",
+    "INURED",
+    "SESAEL",
+    "SNEEZE",
+    "#SDNEM"
+  ]
+}
