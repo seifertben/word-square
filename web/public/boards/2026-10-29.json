@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-29",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "O"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "G"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "T"
+      },
+      null,
+      {
+        "fixed": "R"
+      }
+    ],
+    [
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "T"
+      },
+      null,
+      {
+        "fixed": "I"
+      }
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "C"
+      },
+      null,
+      null,
+      null,
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "O"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#NOTED",
+    "OUTAGE",
+    "LATTER",
+    "DNETNI",
+    "ECHOES",
+    "REGOR#"
+  ]
+}
