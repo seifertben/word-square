@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-30",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "fixed": "K"
+      },
+      null,
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "B"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "N"
+      },
+      null,
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "P"
+      },
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "C"
+      },
+      {
+        "fixed": "A"
+      },
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "I"
+      },
+      null,
+      {
+        "fixed": "R"
+      },
+      null
+    ]
+  ],
+  "solution": [
+    "KITAB#",
+    "ENILAS",
+    "ERUPTS",
+    "ROTATE",
+    "CANCEL",
+    "#DIARB"
+  ]
+}
