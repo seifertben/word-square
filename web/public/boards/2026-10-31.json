@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-31",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "Y"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      {
+        "fixed": "N"
+      },
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "O"
+      },
+      {
+        "fixed": "V"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "O"
+      }
+    ],
+    [
+      {
+        "fixed": "N"
+      },
+      null,
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "U"
+      },
+      {
+        "fixed": "B"
+      }
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "S"
+      }
+    ]
+  ],
+  "solution": [
+    "TESTY#",
+    "EVENTS",
+    "NICAIN",
+    "OVERDO",
+    "NEDRUB",
+    "#REENS"
+  ]
+}
