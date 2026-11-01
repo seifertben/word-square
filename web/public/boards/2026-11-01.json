@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-01",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "V"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "D"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "O"
+      },
+      null,
+      null,
+      null,
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "W"
+      },
+      {
+        "fixed": "O"
+      }
+    ],
+    [
+      {
+        "fixed": "I"
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "fixed": "C"
+      }
+    ],
+    [
+      {
+        "fixed": "T"
+      },
+      null,
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "D"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#REEDS",
+    "VALVED",
+    "IODINE",
+    "SRENWO",
+    "IPECAC",
+    "TUNED#"
+  ]
+}
