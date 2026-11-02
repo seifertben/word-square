@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-02",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "fixed": "O"
+      },
+      null,
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "I"
+      },
+      null,
+      {
+        "blocked": true
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "N"
+      },
+      null,
+      {
+        "fixed": "D"
+      }
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "O"
+      },
+      null,
+      null,
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "U"
+      },
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "U"
+      },
+      {
+        "fixed": "T"
+      }
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "C"
+      },
+      {
+        "fixed": "Y"
+      },
+      {
+        "fixed": "S"
+      },
+      null,
+      null
+    ]
+  ],
+  "solution": [
+    "OCSID#",
+    "BINNED",
+    "EROCNE",
+    "SETURB",
+    "ELTRUT",
+    "#CYSTS"
+  ]
+}
