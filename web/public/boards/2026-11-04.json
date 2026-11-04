@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-04",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "P"
+      },
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "K"
+      },
+      {
+        "fixed": "E"
+      },
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "G"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "D"
+      },
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "B"
+      }
+    ],
+    [
+      {
+        "fixed": "D"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "B"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#PIKES",
+    "BAGELS",
+    "ADNEGA",
+    "SDIPAR",
+    "ELTEEB",
+    "DEERB#"
+  ]
+}
