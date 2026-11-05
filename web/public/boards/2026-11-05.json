@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-05",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "fixed": "M"
+      },
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "P"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      {
+        "fixed": "N"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "H"
+      },
+      {
+        "fixed": "A"
+      },
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "G"
+      },
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "A"
+      }
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "U"
+      },
+      {
+        "fixed": "C"
+      },
+      null,
+      null
+    ]
+  ],
+  "solution": [
+    "MURTS#",
+    "OPERAS",
+    "CLIENT",
+    "HALVES",
+    "ANGORA",
+    "#DUCAL"
+  ]
+}
