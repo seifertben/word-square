@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-06",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      null,
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "L"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "D"
+      }
+    ],
+    [
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "A"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "H"
+      },
+      null,
+      {
+        "fixed": "O"
+      },
+      {
+        "fixed": "P"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "D"
+      },
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "A"
+      },
+      null
+    ]
+  ],
+  "solution": [
+    "EZARG#",
+    "RELIED",
+    "ARCANE",
+    "HOOPED",
+    "SEVERE",
+    "#DERAC"
+  ]
+}
