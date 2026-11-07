@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-07",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "F"
+      },
+      {
+        "fixed": "O"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "H"
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "I"
+      },
+      null,
+      {
+        "fixed": "G"
+      }
+    ],
+    [
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "U"
+      },
+      {
+        "fixed": "M"
+      },
+      null,
+      {
+        "fixed": "I"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "D"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#CREPT",
+    "FOEREH",
+    "LOSING",
+    "ALUMNI",
+    "WILDER",
+    "SETAD#"
+  ]
+}
