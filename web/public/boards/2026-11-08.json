@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-08",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "N"
+      },
+      null,
+      null,
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "U"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "I"
+      },
+      null,
+      null,
+      {
+        "fixed": "L"
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "C"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      {
+        "fixed": "I"
+      },
+      null,
+      {
+        "fixed": "A"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "N"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "F"
+      }
+    ]
+  ],
+  "solution": [
+    "RENOL#",
+    "URINAL",
+    "NUCLEI",
+    "ECEIPA",
+    "SESNEL",
+    "#STERF"
+  ]
+}
