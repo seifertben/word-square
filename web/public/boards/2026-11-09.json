@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-09",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "S"
+      },
+      null,
+      null,
+      {
+        "fixed": "S"
+      },
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "O"
+      },
+      null,
+      {
+        "fixed": "C"
+      },
+      null,
+      {
+        "fixed": "D"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "B"
+      },
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "O"
+      },
+      null,
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "D"
+      },
+      null,
+      {
+        "fixed": "F"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      }
+    ]
+  ],
+  "solution": [
+    "HEADS#",
+    "ASSESS",
+    "ROTCOD",
+    "TPURBA",
+    "SETOME",
+    "#DEFER"
+  ]
+}
