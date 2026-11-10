@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-10",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "O"
+      },
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "T"
+      },
+      null,
+      {
+        "fixed": "T"
+      },
+      null,
+      {
+        "fixed": "A"
+      }
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "T"
+      },
+      null,
+      null,
+      {
+        "fixed": "S"
+      },
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "T"
+      },
+      null
+    ]
+  ],
+  "solution": [
+    "SPITE#",
+    "LOGOUT",
+    "ETUTSA",
+    "ETATSE",
+    "RENEIW",
+    "#DARTS"
+  ]
+}
