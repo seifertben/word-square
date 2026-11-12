@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-12",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "fixed": "T"
+      },
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "M"
+      },
+      null,
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "R"
+      },
+      null,
+      null,
+      null,
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "L"
+      }
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "A"
+      },
+      null,
+      null,
+      {
+        "fixed": "G"
+      },
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "V"
+      },
+      null,
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "blocked": true
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      {
+        "fixed": "E"
+      }
+    ]
+  ],
+  "solution": [
+    "TRAMP#",
+    "RECALL",
+    "ENTREE",
+    "ANIGAV",
+    "DIVIDE",
+    "#SENSE"
+  ]
+}
