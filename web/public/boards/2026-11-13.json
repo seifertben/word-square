@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-13",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "fixed": "P"
+      },
+      null,
+      {
+        "fixed": "D"
+      },
+      null,
+      {
+        "fixed": "L"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "M"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "U"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "P"
+      },
+      null,
+      null,
+      {
+        "fixed": "A"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "P"
+      },
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "C"
+      },
+      null
+    ]
+  ],
+  "solution": [
+    "PEDAL#",
+    "ECILAM",
+    "ENSURE",
+    "TIPMRA",
+    "SRENOL",
+    "#PLACS"
+  ]
+}
