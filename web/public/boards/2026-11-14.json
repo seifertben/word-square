@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-14",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "C"
+      },
+      null,
+      null,
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "T"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "L"
+      },
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "I"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "G"
+      },
+      null,
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "R"
+      }
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "C"
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "I"
+      },
+      null,
+      {
+        "fixed": "S"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#COAST",
+    "ELINES",
+    "DETIDE",
+    "GNIRAR",
+    "ECNAHC",
+    "SHIMS#"
+  ]
+}
