@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-15",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      null,
+      {
+        "fixed": "H"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "P"
+      },
+      null,
+      {
+        "blocked": true
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      null
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "K"
+      },
+      null,
+      {
+        "fixed": "D"
+      }
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "K"
+      },
+      {
+        "fixed": "S"
+      }
+    ]
+  ],
+  "solution": [
+    "CHAPS#",
+    "REVILE",
+    "ARENEG",
+    "ZONKED",
+    "ENGINE",
+    "#SEEKS"
+  ]
+}
