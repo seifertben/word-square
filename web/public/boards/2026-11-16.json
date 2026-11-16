@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-16",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "fixed": "F"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "U"
+      },
+      {
+        "fixed": "I"
+      },
+      null,
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "I"
+      },
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "B"
+      },
+      {
+        "fixed": "I"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      }
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "F"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "D"
+      },
+      null
+    ]
+  ],
+  "solution": [
+    "FRUIT#",
+    "LESNIT",
+    "ORACLE",
+    "SIBILA",
+    "SALTER",
+    "#FEEDS"
+  ]
+}
