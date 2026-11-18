@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-18",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "Y"
+      },
+      null,
+      null,
+      null,
+      {
+        "fixed": "N"
+      }
+    ],
+    [
+      {
+        "fixed": "A"
+      },
+      null,
+      {
+        "fixed": "L"
+      },
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "L"
+      },
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "B"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      null,
+      {
+        "fixed": "D"
+      }
+    ],
+    [
+      {
+        "fixed": "O"
+      },
+      null,
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "Y"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "O"
+      },
+      {
+        "fixed": "U"
+      },
+      null,
+      {
+        "fixed": "S"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#YLBON",
+    "ALLURE",
+    "BLONDE",
+    "BARKED",
+    "ORNERY",
+    "TOURS#"
+  ]
+}
