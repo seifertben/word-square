@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-19",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "W"
+      },
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      {
+        "fixed": "P"
+      },
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "L"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "U"
+      },
+      {
+        "fixed": "N"
+      },
+      null,
+      {
+        "fixed": "B"
+      },
+      null,
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "M"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "M"
+      },
+      null,
+      {
+        "fixed": "N"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "A"
+      },
+      null,
+      null,
+      {
+        "fixed": "D"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#CLEWS",
+    "PILLED",
+    "UNABLE",
+    "REMADE",
+    "EMANER",
+    "EASED#"
+  ]
+}
