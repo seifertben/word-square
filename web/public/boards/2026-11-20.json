@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-20",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "B"
+      },
+      null,
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "A"
+      },
+      null,
+      null,
+      null,
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "D"
+      },
+      null
+    ],
+    [
+      null,
+      {
+        "fixed": "T"
+      },
+      null,
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "P"
+      }
+    ],
+    [
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "T"
+      }
+    ],
+    [
+      {
+        "fixed": "P"
+      },
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "G"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#LIBEL",
+    "SAMENE",
+    "STPADA",
+    "ETARIP",
+    "RELENT",
+    "PSARG#"
+  ]
+}
