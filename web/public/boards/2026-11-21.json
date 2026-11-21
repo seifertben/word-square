@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-21",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      null,
+      {
+        "fixed": "C"
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      {
+        "fixed": "G"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "G"
+      },
+      null,
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "P"
+      }
+    ],
+    [
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "L"
+      },
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#DEETS",
+    "SEMIHC",
+    "GRUDGE",
+    "NIGDIP",
+    "IDEALS",
+    "DELLS#"
+  ]
+}
