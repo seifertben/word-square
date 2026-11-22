@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-22",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      null,
+      null,
+      {
+        "fixed": "P"
+      },
+      null,
+      {
+        "fixed": "D"
+      }
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      null,
+      null,
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "A"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "T"
+      },
+      null,
+      {
+        "fixed": "L"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "V"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "C"
+      },
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "T"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#WIPED",
+    "SAMORA",
+    "ETALER",
+    "RELIVE",
+    "CRATES",
+    "ASSES#"
+  ]
+}
