@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-23",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      null,
+      {
+        "fixed": "H"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "F"
+      },
+      {
+        "fixed": "T"
+      },
+      {
+        "blocked": true
+      }
+    ],
+    [
+      {
+        "fixed": "W"
+      },
+      {
+        "fixed": "O"
+      },
+      null,
+      {
+        "fixed": "L"
+      },
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "T"
+      }
+    ],
+    [
+      {
+        "fixed": "N"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "N"
+      },
+      null
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "T"
+      },
+      null,
+      {
+        "fixed": "M"
+      }
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "R"
+      },
+      null
+    ]
+  ],
+  "solution": [
+    "THEFT#",
+    "WOLLAS",
+    "INDENT",
+    "NEESNU",
+    "SYSTEM",
+    "#STIRS"
+  ]
+}
