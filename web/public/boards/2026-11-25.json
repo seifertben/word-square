@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-25",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "blocked": true
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "L"
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "I"
+      },
+      null,
+      {
+        "fixed": "M"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "E"
+      }
+    ],
+    [
+      {
+        "fixed": "G"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "M"
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "H"
+      },
+      null,
+      null,
+      {
+        "fixed": "D"
+      },
+      null,
+      {
+        "fixed": "R"
+      }
+    ],
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "R"
+      },
+      null
+    ]
+  ],
+  "solution": [
+    "WELSH#",
+    "ECALOS",
+    "INMATE",
+    "GAMETE",
+    "HEADER",
+    "#SMIRT"
+  ]
+}
