@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-26",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      null,
+      null,
+      {
+        "fixed": "U"
+      },
+      null,
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      {
+        "fixed": "D"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "N"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "T"
+      }
+    ],
+    [
+      {
+        "fixed": "Y"
+      },
+      {
+        "fixed": "L"
+      },
+      null,
+      {
+        "fixed": "R"
+      },
+      {
+        "fixed": "I"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "T"
+      }
+    ],
+    [
+      {
+        "fixed": "R"
+      },
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "fixed": "S"
+      },
+      {
+        "fixed": "B"
+      },
+      null,
+      null,
+      {
+        "fixed": "S"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#SOULS",
+    "DENNAT",
+    "YLIRIA",
+    "ELBERT",
+    "RELAES",
+    "SBALS#"
+  ]
+}
