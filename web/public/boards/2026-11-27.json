@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-27",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "C"
+      },
+      {
+        "fixed": "H"
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "fixed": "Q"
+      },
+      {
+        "fixed": "I"
+      },
+      {
+        "fixed": "N"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "P"
+      },
+      {
+        "fixed": "L"
+      },
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "D"
+      }
+    ],
+    [
+      {
+        "fixed": "A"
+      },
+      null,
+      null,
+      null,
+      {
+        "fixed": "T"
+      },
+      null
+    ],
+    [
+      {
+        "fixed": "G"
+      },
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "L"
+      },
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "S"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#ESEHT",
+    "DRENCH",
+    "EUQINU",
+    "PLUMED",
+    "ALERTS",
+    "GALES#"
+  ]
+}
