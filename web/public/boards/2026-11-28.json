@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-28",
+  "size": 6,
+  "minWordLength": 5,
+  "grid": [
+    [
+      {
+        "blocked": true
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "fixed": "L"
+      }
+    ],
+    [
+      {
+        "fixed": "R"
+      },
+      null,
+      null,
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "O"
+      }
+    ],
+    [
+      {
+        "fixed": "A"
+      },
+      {
+        "fixed": "M"
+      },
+      {
+        "fixed": "H"
+      },
+      {
+        "fixed": "T"
+      },
+      null,
+      {
+        "fixed": "A"
+      }
+    ],
+    [
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "R"
+      },
+      null,
+      {
+        "fixed": "S"
+      },
+      null,
+      {
+        "fixed": "D"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "E"
+      },
+      {
+        "fixed": "L"
+      },
+      null,
+      null,
+      {
+        "fixed": "S"
+      }
+    ],
+    [
+      null,
+      {
+        "fixed": "T"
+      },
+      {
+        "fixed": "E"
+      },
+      null,
+      {
+        "fixed": "S"
+      },
+      {
+        "blocked": true
+      }
+    ]
+  ],
+  "solution": [
+    "#DIRUL",
+    "RENEPO",
+    "AMHTSA",
+    "ERASED",
+    "HELOTS",
+    "STEPS#"
+  ]
+}
